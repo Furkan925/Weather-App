@@ -6,7 +6,7 @@ Welcome to the **Weather App** — a sleek and responsive web application that d
 
 ## 🚀 Live Demo
 
-Check it out live here: [Weather App by Furkan925](https://furkan925.github.io/weather-app/)  
+Check it out live here: https://furkan925.github.io/Weather-App/
 > Hosted on GitHub Pages
 
 ---
@@ -17,13 +17,13 @@ Check it out live here: [Weather App by Furkan925](https://furkan925.github.io/w
 - 🌡️ Displays temperature, humidity, wind speed & more
 - 🕒 Real-time updates using OpenWeatherMap API
 - 🎨 Responsive design for mobile & desktop
-- 🌍 Option to switch between Celsius and Fahrenheit
+
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Frontend       | Backend/API      |
+| Frontend       | API   |
 |----------------|------------------|
 | HTML, CSS, JS  | OpenWeatherMap   |
 ---
