@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="logo.png">
+    <!-- import Google icons  -->
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
+  </head>
+  <body>
+    <main class="main-container">
+      <!--inside main tag we created a container to explain everything weather related  -->
+      <header class="input-container">
+        <input class="city-input" placeholder="Search City" spellcheck="false" type="text" />
+        <!--we use input type to take city input from user and a button to submit -->
+        <button class="search-btn">
+          <span class="material-symbols-outlined"> search </span>
+        </button>
+      </header>
+      <section class="weather-info" style="display: none;">
+        <div class="location-date-container">
+          <div class="location">
+            <span class="material-symbols-outlined"> location_on </span>
+            <h4 class="country-text">Jakarta</h4>
+          </div>
+          <h5 class="current-date-txt regular-txt">wed,07,Aug</h5>
+        </div>
+        <div class="weather-summary-container">
+          <img class="weather-summary-img" src="weather-icons/clear-sky.png" />
+          <div class="weather-summary-info">
+            <h1 class="temp-text">29 °C</h1>
+            <h3 class="condition-txt" regular-txt>Clouds</h3>
+          </div>
+        </div>
+        <div class="weather-condition-container">
+          <div class="condition-item">
+            <div class="condition-info">
+              <span class="material-symbols-outlined"> water_drop </span>
+              <h5 class="regular-txt">Humidity</h5>
+              <span class="humidity-value">55%</span>
+              </div>
+            </div>
+          <div class="condition-item">
+            <div class="condition-info">
+              <span class="material-symbols-outlined"> air </span>
+              <h5 class="regular-txt">wind speed</h5>
+              <div class="wind-value" >20m/s</div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="forecast-items-container">
+          <div class="forecast-item">
+            <h5 class="forecast-item-date" regular-txt>05 Aug </h5>
+            <img src="weather-icons/drizzle.svg"  class="forecast-item-img">
+            <h5 class="forecast-item-temp">29°C</h5>
+          </div>
+          <div class="forecast-item">
+            <h5 class="forecast-item-date" regular-txt>05 Aug </h5>
+            <img src="weather-icons/rain.svg"  class="forecast-item-img">
+            <h5 class="forecast-item-temp">29°C</h5>
+          </div>
+          <div class="forecast-item">
+            <h5 class="forecast-item-date" regular-txt>05 Aug </h5>
+            <img src="weather-icons/thunderstorm.svg"  class="forecast-item-img">
+            <h5 class="forecast-item-temp">29°C</h5>
+          </div>
+          <div class="forecast-item">
+            <h5 class="forecast-item-date" regular-txt>05 Aug </h5>
+            <img src="weather-icons/snow.svg"  class="forecast-item-img">
+            <h5 class="forecast-item-temp">29°C</h5>
+          </div>
+        </div>
+      </section>
+      <section class="search-city section-message">
+        <img  src="weather-icons/city.png" >
+         <div>
+          <h1 class="regular-txt">
+            Search City
+          </h1>
+          <h4 class="regular-txt">Find out the weather conditions of the city</h4>
+         </div>
+      </section>
+      <section class="not-found section-message" style="display: none;">
+        <img src="weather-icons/not-found.png" >
+         <div>
+          <h1 class="regular-txt">
+            Search City
+          </h1>
+          <h4 class="regular-txt">City not-found</h4>
+         </div>
+      </section>
+    </main>
+    
+  </body>
+  <script  src="script.js"></script>
+</html>
